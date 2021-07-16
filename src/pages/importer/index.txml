@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="container-textbox">
+    <text class="container-text--heading">Nhập sản phẩm</text>
+    <text class="container-text--subtitle">Dán đường dẫn tới sản phẩm trên Tiki</text>
+  </view>
+  <input class="container-input" placeholder="http:/product"></input>
+  <view class="container-action">
+    <view class="container-divider"></view>
+    <button class="container-button" onTap="onImport">Import</button>
+    <text class="container-link">or Fill out product form</text>
+  </view>
+</view>

@@ -1,10 +1,13 @@
 {
   "pages": [
     "pages/login/index",
+    "pages/importer/index",
+    "pages/editor/index",
     "pages/index/index"
   ],
   "window": { 
     "transparentTitle": "always",
     "backgroundColor": "#f9fafd"
   }
+  
 }

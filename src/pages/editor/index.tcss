@@ -1,0 +1,30 @@
+.editor {
+  height: 100vh;
+  margin-top: 80px;
+}
+
+.editor-tabs {
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0.55rem;
+  border-bottom: 1px solid #E1E2E3;
+}
+
+.editor-tab {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  color: #828282;
+  background-color: #F9FAFD;
+  border: none;
+  font-size: 0.75rem;
+}
+
+
+.editor-tab--active, .editor-tab:hover {
+  background-color: rgba(48, 157, 181, 0.2);
+  color: rgba(48, 157, 181, 1);
+  font-weight: 600;
+}

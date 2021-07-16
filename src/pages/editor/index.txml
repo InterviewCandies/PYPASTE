@@ -1,0 +1,16 @@
+<view class="editor">
+ <view class="editor-tabs">
+   <button id="info" class="editor-tab {{currentTab === 0 ? 'editor-tab--active' :  ''}}"
+           onTap="onTabChange"
+    >Thông tin</button>
+   <button id="image" class="editor-tab {{currentTab === 1 ? 'editor-tab--active' :  ''}}"
+           onTap="onTabChange"
+  >Ảnh</button>
+   <button class="editor-tab {{currentTab === 2 ? 'editor-tab--active' :  ''}}"
+           onTap="onTabChange"
+    >Khác</button>
+ </view>
+ <view tiki:if="{{currentTab == 0}}">
+  <text>editor</text>
+ </view>
+</view>

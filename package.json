@@ -4,5 +4,8 @@
   "tiki": {
     "appIdentifier": "pypaste.by.the.peaches",
     "buildNumber": 1
+  },
+  "dependencies": {
+    "@tiki.vn/tini-ui": "^0.1.1"
   }
 }
