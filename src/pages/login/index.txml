@@ -1,0 +1,5 @@
+<view>
+  <text class="text--heading"><text class="text--special">PY</text>PASTE</text>
+  <button onTap="onTap">Cho phép truy cập</button>
+  <text class="text--subtitle">Bằng cách nhấn nút trên, bạn cho phép PyPaste truy cập và thay đổi cửa hàng của bạn</text>
+</view>

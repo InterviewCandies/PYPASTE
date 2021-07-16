@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/login/index",
     "pages/index/index"
   ],
-  "window": {
-    "defaultTitle": "My App"
+  "window": { 
+    "transparentTitle": "always",
+    "backgroundColor": "#f9fafd"
   }
 }

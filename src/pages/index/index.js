@@ -8,5 +8,8 @@ Page({
   onHide() {
   },
   onUnload() {
+  },
+  onTap(e) {
+    my.alert({ content: 'Button Clicked' });
   }
 });
