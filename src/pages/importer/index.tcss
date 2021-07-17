@@ -54,7 +54,8 @@
 }
 
 .container-button:hover {
-  background-color: #cecece;
+    opacity: 50%;
+    background: linear-gradient(135deg, #65FDF0 0%, #1D6FA3 100%);
 }
 
 .container-link {

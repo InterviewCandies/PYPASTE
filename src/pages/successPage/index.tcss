@@ -1,0 +1,40 @@
+.container {
+  margin-top: 80px;
+  padding: 1.5rem;
+  height: 100%;
+  background-color: #F9FAFD;
+  text-align: center;
+  position: relative;
+}
+
+.container-image {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.container-text {
+  font-size: 0.75rem;
+  display: block;
+}
+
+.container-text--bold {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.container-button {
+ 
+  border-radius: 8px;
+  padding: 16px;
+  height: auto;
+  width: 100%;
+  font-weight: 600;
+  background: linear-gradient(135deg, #65FDF0 0%, #1D6FA3 100%);
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  border: none;
+}
+
+.container-button:hover {
+    opacity: 50%;
+    background: linear-gradient(135deg, #65FDF0 0%, #1D6FA3 100%);
+}

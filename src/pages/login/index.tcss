@@ -1,4 +1,4 @@
-view {
+.login {
   height: 100vh;
   background: rgba(48, 157, 181, 0.2);
   display: flex;
@@ -8,7 +8,7 @@ view {
   padding: 20px;
 }
 
-button {
+.login-button {
   border-radius: 8px;
   padding: 16px;
   height: auto;
@@ -19,20 +19,21 @@ button {
   border: none;
 }
 
-button:hover {
-  background-color: #cecece;
+.login-button:hover {
+  opacity: 50%;
+  background: linear-gradient(135deg, #65FDF0 0%, #1D6FA3 100%);
 }
 
-.text--heading, .text--special {
+.login-text {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-.text--special {
+.login-text--special {
   color: #309DB5;
 }
 
-.text--subtitle {
+.login-text--subtitle {
   margin-top: 1rem;
   font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.5);

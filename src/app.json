@@ -4,6 +4,8 @@
     "pages/importer/index",
     "pages/editor/index",
     "pages/requests/index",
+    "pages/profile/index",
+    "pages/successPage/index",
     "pages/index/index"
   ],
   "window": { 

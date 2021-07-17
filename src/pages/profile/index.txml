@@ -1,0 +1,26 @@
+<view class="profile">
+  <image class="profile-image" src="{{store.url}}"></image>
+  <view class="profile-content">
+    <text class="profile-text profile-text--bold">General information</text>
+    <view class="profile-box">
+      <text class="profile-text profile-text--mute">Store name</text>
+      <text class="profile-text">{{store.name}}</text>
+    </view>
+      <view class="profile-box">
+      <text class="profile-text profile-text--mute">Store id</text>
+      <text class="profile-text">{{store.id}}</text>
+    </view>
+    <view class="profile-box">
+      <text class="profile-text profile-text--mute">Phone number</text>
+      <text class="profile-text">{{store.phone}}</text>
+    </view>
+    <view class="profile-box">
+      <text class="profile-text profile-text--mute">Email</text>
+      <text class="profile-text">{{store.email}}</text>
+    </view>
+    <view class="profile-box">
+      <text class="profile-text profile-text--mute">Location</text>
+      <text class="profile-text">{{store.location}}</text>
+    </view>
+  </view>
+</view>

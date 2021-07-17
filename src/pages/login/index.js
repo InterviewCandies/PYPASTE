@@ -1,6 +1,6 @@
 Page({
   onLoad() {},
   onTap(e) {
-    my.navigateTo({ url: 'pages/requests/index' });
+    my.navigateTo({ url: 'pages/successPage/index' });
   }
 })
