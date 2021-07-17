@@ -1,0 +1,34 @@
+<form class="info">
+  <label class="info-group">
+    <text class="info-label">Category</text>
+    <input></input>
+  </label>
+  <label class="info-group">
+    <text class="info-label">Name</text>
+    <input></input>
+  </label>
+   <label class="info-group">
+    <text class="info-label">Description</text>
+    <textarea></textarea>
+  </label>
+  <label class="info-group">
+    <text class="info-label">Price</text>
+    <input type="number"></input>
+  </label>
+  <label class="info-group">
+    <text class="info-label">Brand</text>
+    <input></input>
+  </label>
+  <label class="info-group">
+    <text class="info-label">Origin</text>
+    <input></input>
+  </label>
+  <label class="info-group">
+    <text class="info-label">Top features</text>
+    <textarea></textarea>
+  </label>
+  <label class="info-group">
+    <text class="info-label">Material</text>
+    <input></input>
+  </label>
+</form>

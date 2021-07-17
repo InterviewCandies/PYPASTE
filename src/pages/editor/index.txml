@@ -3,7 +3,7 @@
    <button id="info" class="editor-tab {{currentTab === 0 ? 'editor-tab--active' :  ''}}"
            onTap="onTabChange"
     >Thông tin</button>
-   <button id="image" class="editor-tab {{currentTab === 1 ? 'editor-tab--active' :  ''}}"
+   <button id="image" class="editor-tab editor-tab--middle {{currentTab === 1 ? 'editor-tab--active' :  ''}}"
            onTap="onTabChange"
   >Ảnh</button>
    <button class="editor-tab {{currentTab === 2 ? 'editor-tab--active' :  ''}}"
@@ -11,6 +11,6 @@
     >Khác</button>
  </view>
  <view tiki:if="{{currentTab == 0}}">
-  <text>editor</text>
+    <info-editor></info-editor>
  </view>
 </view>

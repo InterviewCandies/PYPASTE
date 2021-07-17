@@ -3,6 +3,7 @@
     "pages/login/index",
     "pages/importer/index",
     "pages/editor/index",
+    "pages/requests/index",
     "pages/index/index"
   ],
   "window": { 

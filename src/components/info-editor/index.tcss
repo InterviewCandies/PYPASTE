@@ -1,0 +1,27 @@
+.info {
+  padding: 1.5rem;
+}
+
+.info > * {
+  margin-bottom: 1rem;
+}
+
+.info-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-label {
+  color: #636773;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+  border: 1px solid #309DB5;
+}
+
+.picker {
+  width: 100%;
+}

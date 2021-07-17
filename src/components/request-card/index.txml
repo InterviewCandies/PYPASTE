@@ -1,0 +1,3 @@
+<view >
+  <text>Counter: {{counter}}</text>
+</view>

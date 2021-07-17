@@ -22,6 +22,10 @@
   font-size: 0.75rem;
 }
 
+.editor-tab--middle {
+  margin: 0 5px;
+}
+
 
 .editor-tab--active, .editor-tab:hover {
   background-color: rgba(48, 157, 181, 0.2);

@@ -1,6 +1,6 @@
 Page({
   onLoad() {},
   onTap(e) {
-    my.navigateTo({ url: 'pages/importer/index' });
+    my.navigateTo({ url: 'pages/requests/index' });
   }
 })
