@@ -10,7 +10,7 @@
            onTap="onTabChange"
     >Khác</button>
  </view>
- <view tiki:if="{{currentTab == 0}}">
+ <view  class="editor-content" tiki:if="{{currentTab == 0}}">
     <info-editor></info-editor>
  </view>
 </view>

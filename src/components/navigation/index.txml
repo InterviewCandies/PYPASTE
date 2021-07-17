@@ -1,7 +1,0 @@
-<view>
-    <tabs>
-      <tab-content>Hello</tab-content>
-      <tab-content>Hi</tab-content>
-    </tabs>
-    <carousel></carousel>
-</view>

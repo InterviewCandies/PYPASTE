@@ -1,10 +1,11 @@
 .container {
-  margin-top: 80px;
+  top: 80px;
   padding: 1.5rem;
   height: 100%;
+  position: fixed;
+  box-sizing: border-box;
   background-color: #F9FAFD;
   text-align: center;
-  position: relative;
 }
 
 .container-image {
@@ -23,7 +24,6 @@
   margin-bottom: 0.5rem;
 }
 .container-button {
- 
   border-radius: 8px;
   padding: 16px;
   height: auto;

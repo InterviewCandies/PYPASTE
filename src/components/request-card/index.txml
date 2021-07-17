@@ -1,3 +1,8 @@
-<view >
-  <text>Counter: {{counter}}</text>
+<view class="card">
+  <image class="card-image" src="{{request.url}}"></image>
+  <view class="card-content">
+    <text class="card-text card-text--bold">{{request.id}}</text>
+    <text class="card-text">{{request.description}}</text>
+  </view>
+  <icon class="card-status" type="{{statusIcon.type}}" color="{{statusIcon.color}}"></icon>
 </view>

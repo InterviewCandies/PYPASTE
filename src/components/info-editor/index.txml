@@ -1,3 +1,6 @@
+<scroll-view>
+  
+</scroll-view>
 <form class="info">
   <label class="info-group">
     <text class="info-label">Category</text>
