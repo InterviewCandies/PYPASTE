@@ -3,5 +3,5 @@
   <text class="container-text">Yêu cầu đã được gửi lên hệ thống của Tiki. Bạn có thể kiểm tra trạng thái của yêu cầu mở mục Yêu cầu</text>
   <image class="container-image" src="../../images/request_sent.png"></image>
   <button class="container-button">Tiếp tục nhập sản phẩm</button>
-  
+  <footer-bar></footer-bar>
 </view>

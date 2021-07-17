@@ -1,3 +1,6 @@
-<view class="requests">
+<view class="history">
+  <text class="history-text history-text--bold">Lịch sử</text>
   <request-card request="{{request}}"/>
 </view>
+
+<footer-bar page="2"></footer-bar>

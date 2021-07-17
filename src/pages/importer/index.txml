@@ -10,3 +10,6 @@
     <text class="container-link">or Fill out product form</text>
   </view>
 </view>
+
+<footer-bar></footer-bar>
+

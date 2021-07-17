@@ -1,0 +1,14 @@
+<view>
+  <view class="tabs">
+    <view class="tabs-bar">
+      <block tiki:for="{{tabs}}">
+        <view class="tabs-bar-tab" data-index="{{index}}" onTap="onTabBarTap">
+          <view class="tabs-bar-tab-title">
+            <image src="{{item.icon}}" class="tabs-bar-tab-image {{activeTab === index ? 'hide' : ''}}"></image>
+            <image src="{{item.iconActive}}" class="tabs-bar-tab-image  {{activeTab === index ? '' : 'hide'}}"></image>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

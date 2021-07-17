@@ -14,3 +14,5 @@
     <info-editor></info-editor>
  </view>
 </view>
+
+<footer-bar page="1"></footer-bar>

@@ -1,0 +1,41 @@
+.tabs {
+  height: 60px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #E0E0E0;
+}
+
+.tabs-bar {
+  display: flex;
+  height: 100%;
+}
+
+.tabs-bar-tab {
+  bottom: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs-bar-tab {
+  font-size: 1rem;
+}
+
+.tabs-bar-tab-title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.tabs-bar-tab-image {
+  width: 30px;
+  height: 30px;
+}

@@ -1,5 +1,6 @@
 {
     "usingComponents": {
-      "info-editor": "components/info-editor/index"
+      "info-editor": "components/info-editor/index",
+      "footer-bar": "components/footer-bar/index"
     }
 }
