@@ -1,5 +1,6 @@
 .profile {
   background-color: #F9FAFD;
+  margin-bottom: 60px;
 }
 
 .profile-image {

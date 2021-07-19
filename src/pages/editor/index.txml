@@ -10,15 +10,15 @@
            onTap="onTabChange"
     >Khác</button>
  </view>
- <view  class="editor-content" tiki:if="{{currentTab == 0}}">
-    <info-editor></info-editor>
- </view>
- <view class="editor-content" tiki:if="{{currentTab == 1}}">
-    <image-editor></image-editor>
- </view>
- <view class="editor-content" tiki:if="{{currentTab == 2}}">
-    <variant-editor></variant-editor>
- </view>
+  <view  class="editor-content" tiki:if="{{currentTab == 0}}">
+      <info-editor></info-editor>
+  </view>
+  <view class="editor-content" tiki:if="{{currentTab === 1}}">
+      <image-editor></image-editor>
+  </view>
+  <view class="editor-content" tiki:if="{{currentTab === 2}}">
+      <variant-editor></variant-editor>
+  </view>
 </view>
 
 <footer-bar page="1"></footer-bar>

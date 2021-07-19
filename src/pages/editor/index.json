@@ -6,6 +6,6 @@
       "footer-bar": "components/footer-bar/index"
     },
     "transparentTitle": "none",
-    "defaultTitle": "Editor",
+    "defaultTitle": "Công cụ",
     "titleBarColor": "#309DB5"
 }

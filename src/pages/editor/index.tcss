@@ -1,5 +1,5 @@
 .editor {
-  height: 100%;
+  margin-bottom: 50px;
 }
 
 .editor-tabs {
@@ -12,6 +12,7 @@
   box-sizing: border-box;
   padding: 0.55rem;
   border-bottom: 1px solid #E1E2E3;
+  z-index: 10;
 }
 
 .editor-tab {

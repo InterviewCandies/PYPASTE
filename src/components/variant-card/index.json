@@ -1,3 +1,6 @@
 {
-  "component": true
+  "component": true,
+  "usingComponents": {
+      "textfield": "@tiki.vn/tini-ui/es/textfield/index"
+  }
 }

@@ -2,4 +2,9 @@
   <button onTap="" class="container-add">
     <icon type="plus" color="#fff"></icon>
   </button>
+  <variant-card></variant-card>
+    <variant-card></variant-card>
+  <variant-card></variant-card>
+  <variant-card></variant-card>
+
 </view>
