@@ -5,7 +5,7 @@
 .editor-tabs {
   display: flex;
   flex: 1;
-  top: 80px;
+  top: 0px;
   background: #fff;
   position: fixed;
   width: 100vw;
@@ -36,5 +36,5 @@
 }
 
 .editor-content {
-   margin-top: 120px;
+  margin-top: 2rem;
 }

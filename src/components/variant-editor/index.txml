@@ -1,0 +1,5 @@
+<view class="container">
+  <button onTap="" class="container-add">
+    <icon type="plus" color="#fff"></icon>
+  </button>
+</view>

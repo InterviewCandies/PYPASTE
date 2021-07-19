@@ -2,7 +2,7 @@
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  margin: 80px 0;
+  margin-top: 40px;
   box-sizing: border-box;
   width: 100%;
   background-color: #f9fafd;
@@ -62,5 +62,6 @@
 .container-link {
   color: rgba(48, 157, 181, 1);
   font-weight: 600;
+  font-size: 0.75rem;
   text-decoration: underline;
 }

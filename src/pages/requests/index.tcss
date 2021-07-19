@@ -1,6 +1,5 @@
 .history {
-  margin-top: 80px;
-  padding: 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .history-text {

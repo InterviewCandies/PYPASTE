@@ -6,8 +6,8 @@
   <input class="container-input" placeholder="http:/product"></input>
   <view class="container-action">
     <view class="container-divider"></view>
-    <button class="container-button" onTap="onImport">Import</button>
-    <text class="container-link">or Fill out product form</text>
+    <button class="container-button" onTap="onImport">Sao chép</button>
+    <text class="container-link">hoặc Nhập sản phẩm theo mẫu</text>
   </view>
 </view>
 

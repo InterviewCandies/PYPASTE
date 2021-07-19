@@ -2,7 +2,7 @@
   "name": "pypaste",
   "version": "0.1.0",
   "tiki": {
-    "appIdentifier": "pypaste.by.the.peaches",
+    "appIdentifier": "vn.tiki.hackathon.pypaste",
     "buildNumber": 1
   },
   "dependencies": {

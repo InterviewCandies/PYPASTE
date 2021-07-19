@@ -1,7 +1,5 @@
 <scroll-view>
-  
-</scroll-view>
-<form class="info">
+  <form class="info">
   <label class="info-group">
     <text class="info-label">Category</text>
     <input></input>
@@ -35,3 +33,4 @@
     <input></input>
   </label>
 </form>
+</scroll-view>
