@@ -1,0 +1,7 @@
+.notification {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding-bottom: 80px;
+}

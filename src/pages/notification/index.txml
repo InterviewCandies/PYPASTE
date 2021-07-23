@@ -1,0 +1,7 @@
+<view class="notification">
+  <noti-card></noti-card>
+  <noti-card></noti-card>
+  <noti-card></noti-card>
+</view>
+
+<footer-bar page="2"></footer-bar>

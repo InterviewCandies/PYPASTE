@@ -1,0 +1,10 @@
+.invitation {
+  padding: 1.5rem;
+  padding-bottom: 80px;
+}
+
+.invitation-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}

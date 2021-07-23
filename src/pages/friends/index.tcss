@@ -1,0 +1,31 @@
+.friends {
+  padding: 1.5rem; 
+  padding-bottom: 80px;
+}
+
+.friends-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+
+.friends-action {
+  background-color: #202020;
+  border-radius: 8px;
+  font-size: 1rem;
+  height: auto;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends-box {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}

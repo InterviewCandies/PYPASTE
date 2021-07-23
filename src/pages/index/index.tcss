@@ -1,5 +1,0 @@
-view { 
-  background-color: rgba(48, 157, 181, 0.2);
-  opacity: 20%;
-  height: 100vh;
-}

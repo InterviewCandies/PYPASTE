@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tabs": "@tiki.vn/tini-ui/es/tabs/index",
+    "footer-bar": "/components/footer-bar/index",
+    "invitation-card": "/components/invitation-card/index"
+  },
+  "transparentTitle": "none",
+  "defaultTitle": "Lời mời",
+  "titleBarColor": "#202020"
+}

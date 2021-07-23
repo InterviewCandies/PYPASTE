@@ -1,0 +1,15 @@
+<view class="details">
+  <text class="details-text">Giỏ hàng của HNhi</text>
+  <text class="details-text details-text--mute">20/03/2021</text>
+  <view class="details-list">
+    <item></item>
+    <item></item>
+    <item></item>
+  </view>
+  <view class="details-action">
+    <button class="details-button details-button--main">Đồng ý</button>
+    <button class="details-button">Từ chối</button>
+  </view>
+</view>
+
+<footer-bar page="1"></footer-bar>

@@ -1,0 +1,25 @@
+
+.noti {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 15px; 
+}
+
+.noti-image {
+  width: 60px;
+  height: 60px;
+}
+
+.noti-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.noti-text {
+  font-size: 0.75rem;
+}
+
+.noti-text--bold {
+  font-size: 1rem;
+  font-weight: 600;
+}

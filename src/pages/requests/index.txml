@@ -1,5 +1,0 @@
-<view class="history">
-  <request-card request="{{request}}"/>
-</view>
-
-<footer-bar page="2"></footer-bar>

@@ -1,0 +1,12 @@
+<view class="friends">
+  <view class="friends-box">
+     <button class="friends-action"> <icon type="plus" color="#fff"></icon> Thêm</button>
+  </view>
+  <view class="friends-list">
+    <friend-card></friend-card>
+    <friend-card></friend-card>
+    <friend-card></friend-card>
+  </view>
+</view>
+
+<footer-bar page="3"></footer-bar>

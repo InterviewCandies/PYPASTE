@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "tabs": "@tiki.vn/tini-ui/es/tabs/index",
-    "footer-bar": "/components/footer-bar/index"
-  },
-  "transparentTitle": "none",
-  "defaultTitle": "Sao chép",
-  "titleBarColor": "#309DB5"
-}

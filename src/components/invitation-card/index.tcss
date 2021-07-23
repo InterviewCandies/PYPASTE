@@ -1,0 +1,31 @@
+
+.invitation-card {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  gap: 10px;
+}
+
+.invitation-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.invitation-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.invitation-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.invitation-text--small {
+  font-size: 0.75rem;
+  color: #cecece;
+}

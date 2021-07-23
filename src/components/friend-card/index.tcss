@@ -1,0 +1,30 @@
+
+.friend {
+  padding: 0.5rem;
+  background: #fff;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 50px 1fr; 
+  border-radius: 8px;
+}
+
+.friend-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.friend-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.friend-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.friend-text--mute {
+  font-size: 0.75rem;
+  color: #cecece;
+}

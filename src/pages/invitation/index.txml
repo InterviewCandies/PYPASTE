@@ -1,0 +1,8 @@
+<view class="invitation">
+  <view class="invitation-list">
+    <invitation-card></invitation-card>
+    <invitation-card></invitation-card>
+    <invitation-card></invitation-card> 
+  </view>
+</view>
+<footer-bar page="1"></footer-bar>

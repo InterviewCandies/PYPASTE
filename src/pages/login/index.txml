@@ -1,5 +1,0 @@
-<view class="login h-screen">
-  <text class="login-text login-text--heading"><text class="login-text login-text--special">PY</text>PASTE</text>
-  <button class="login-button" onTap="onTap">Cho phép truy cập</button>
-  <text class="login-text login-text--subtitle">Bằng cách nhấn nút trên, bạn cho phép PyPaste truy cập và thay đổi cửa hàng của bạn</text>
-</view>

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tabs": "@tiki.vn/tini-ui/es/tabs/index",
+    "footer-bar": "/components/footer-bar/index",
+    "item": "/components/item/index"
+  },
+  "transparentTitle": "none",
+  "defaultTitle": "Giỏ hàng",
+  "titleBarColor": "#202020"
+}

@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "variant-card": "../variant-card/index"
-  }
-}

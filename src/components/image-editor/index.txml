@@ -1,8 +1,0 @@
-<view class="container">
-  <button onTap="onChooseImage" class="container-add">
-    <image src="../../images/photo.png" class="container-add-icon"></image>
-  </button>
-   <block tiki:for="{{imgs}}" class="container-images">
-    <image src="{{item}}" class="container-image"/>
-  </block>
-</view>

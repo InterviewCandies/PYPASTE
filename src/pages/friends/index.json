@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "footer-bar": "components/footer-bar/index",
+    "friend-card": "components/friend-card/index"
+  },
+  "transparentTitle": "none",
+  "defaultTitle": "Bạn bè",
+  "titleBarColor": "#202020"
+}

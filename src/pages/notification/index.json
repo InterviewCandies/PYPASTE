@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tabs": "@tiki.vn/tini-ui/es/tabs/index",
+    "footer-bar": "/components/footer-bar/index",
+    "noti-card": "/components/noti-card/index"
+  },
+  "transparentTitle": "none",
+  "defaultTitle": "Thông báo",
+  "titleBarColor": "#202020"
+}

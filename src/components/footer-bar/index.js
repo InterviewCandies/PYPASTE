@@ -3,20 +3,20 @@ Component({
     activeTab: 0,
     tabs: [
       {
-        icon: "../../images/import.png",
-        iconActive: "../../images/import-active.png"
+        icon: "../../images/cart.png",
+        iconActive: "../../images/cart-active.png"
       },
       {
-        icon: "../../images/edit.png",
-        iconActive: "../../images/edit-active.png"
+        icon: "../../images/invite.png",
+        iconActive: "../../images/invite-active.png"
       },
       {
-        icon: "../../images/history.png",
-        iconActive: "../../images/history-active.png"
+        icon: "../../images/notification.png",
+        iconActive: "../../images/notification-active.png"
       },
       {
-        icon: "../../images/profile.png",
-        iconActive: "../../images/profile-active.png"
+        icon: "../../images/friends.png",
+        iconActive: "../../images/friends-active.png"
       },
     ],
   },
@@ -27,7 +27,7 @@ Component({
 
   didMount() {
     this.setData({
-      activeTab: this.props.page 
+      activeTab: Number(this.props.page) 
     })
   },
 
@@ -43,16 +43,16 @@ Component({
     movePage(index) {
        switch(index) {
         case 0: 
-          my.navigateTo({ url: "pages/importer/index" });
+          my.navigateTo({ url: "pages/cart/index" });
           break;
         case 1:
-          my.navigateTo({ url: "pages/editor/index" });
+          my.navigateTo({ url: "pages/invitation/index" });
           break;
         case 2: 
-          my.navigateTo({url: "pages/requests/index"});
+          my.navigateTo({url: "pages/notification/index"});
           break;
         default:
-          my.navigateTo({url: "pages/profile/index"});
+          my.navigateTo({url: "pages/friends/index"});
           break;
       }
     }
