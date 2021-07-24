@@ -35,19 +35,18 @@
 }
 
 .cart-text--big {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .cart-text--mute {
   margin-left: 0.25rem;
   font-size: 0.75rem;
-  color: #cecece;
+  color: #9B9B9B;
 }
 
 .cart-action {
-  margin-top: 2.5rem;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 50px;
   background: #202020;
   height: auto;
@@ -56,7 +55,21 @@
   box-sizing: border-box;
 }
 
+.cart-action--white {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  background: white;
+  color: #202020;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .cart-action:hover {
   background: #202020;
   opacity: 50%;
+}
+
+.cart-action--white:hover {
+  background: #fff;
+  opacity: 50%;
+
 }

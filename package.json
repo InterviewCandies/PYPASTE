@@ -1,6 +1,6 @@
 {
   "name": "pypaste",
-  "version": "2.0.0",
+  "version": "2.0.5",
   "tiki": {
     "appIdentifier": "vn.tiki.hackathon.pypaste",
     "buildNumber": 1

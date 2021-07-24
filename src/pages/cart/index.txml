@@ -1,24 +1,23 @@
 <view class="cart">
-  <view class="cart-items">
-    <item></item>
-     <item></item>
-     <item></item>
+  <view tiki:for="{{products}}" tiki:key="name">
+    <item product="{{item}}"></item>
   </view>
   <view class="cart-info">
     <view class="cart-row">
       <text class="cart-text">Thành tiền</text>
-      <text class="cart-text cart-text--big">120000 <text class="cart-text--mute cart-text">đồng</text></text>
+      <text class="cart-text cart-text--big">{{subtotal.toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}}</text>
     </view>
       <view class="cart-row">
       <text class="cart-text">Phí giao hàng</text>
-      <text class="cart-text cart-text--big">120000 <text class="cart-text--mute cart-text">đồng</text></text>
+      <text class="cart-text cart-text--big">{{shipping.toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}}</text>
     </view>
     <view class="cart-row cart-row--last">
       <text class="cart-text">Tổng cộng</text>
-      <text class="cart-text cart-text--big">120000 <text class="cart-text--mute cart-text">đồng</text></text>
+      <text class="cart-text cart-text--big">{{(subtotal + shipping).toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}}</text>
     </view>
   </view>
-  <button class="cart-action"> Đặt hàng trên Tiki</button>
+  <button class="cart-action cart-action--white" onTap="onInvite"> Mời bạn bè ghép giỏ hàng</button>
+  <button class="cart-action" onTap="onOpenCart"> Đặt hàng trên Tiki</button>
 </view>
 
 <footer-bar></footer-bar>

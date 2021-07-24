@@ -1,11 +1,9 @@
 <view class="friends">
   <view class="friends-box">
-     <button class="friends-action"> <icon type="plus" color="#fff"></icon> Thêm</button>
+     <button class="friends-action" onTap="onAdd"> <icon type="plus" color="#fff"></icon> Thêm bạn</button>
   </view>
-  <view class="friends-list">
-    <friend-card></friend-card>
-    <friend-card></friend-card>
-    <friend-card></friend-card>
+  <view class="friends-list" tiki:for="{{friends}}">
+    <friend-card friend="{{item}}"></friend-card>
   </view>
 </view>
 

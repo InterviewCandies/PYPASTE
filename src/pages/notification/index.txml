@@ -1,7 +1,7 @@
 <view class="notification">
-  <noti-card></noti-card>
-  <noti-card></noti-card>
-  <noti-card></noti-card>
+  <view tiki:for="{{notifications}}">
+    <noti-card notification="{{item}}"></noti-card>
+  </view>
 </view>
 
 <footer-bar page="2"></footer-bar>

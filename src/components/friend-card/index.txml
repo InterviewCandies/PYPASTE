@@ -1,7 +1,7 @@
 <view class="friend">
-    <image class="friend-avatar" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
+    <image class="friend-avatar" src="{{friend.avatar}}"></image>
     <view class="friend-content">
-      <text class="friend-text">Tran Le Hong Nhi</text>
-      <text class="friend-text friend-text--mute">045 343 223</text>
+      <text class="friend-text">{{friend.name}}</text>
+      <text class="friend-text friend-text--mute">{{friend.phone}}</text>
     </view>
   </view>

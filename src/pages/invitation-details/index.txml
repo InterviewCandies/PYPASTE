@@ -1,14 +1,12 @@
 <view class="details">
-  <text class="details-text">Giỏ hàng của HNhi</text>
-  <text class="details-text details-text--mute">20/03/2021</text>
-  <view class="details-list">
-    <item></item>
-    <item></item>
-    <item></item>
+  <text class="details-text">Giỏ hàng của {{invitation.user.name}}</text>
+  <text class="details-text details-text--mute">{{invitation.date}}</text>
+  <view tiki:for="{{invitation.cart}}">
+    <item product="{{item}}"></item>
   </view>
   <view class="details-action">
-    <button class="details-button details-button--main">Đồng ý</button>
-    <button class="details-button">Từ chối</button>
+    <button class="details-button details-button--main" onTap="onAccept">Đồng ý</button>
+    <button class="details-button" onTap="onReject">Từ chối</button>
   </view>
 </view>
 

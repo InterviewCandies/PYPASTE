@@ -1,11 +1,11 @@
  <view class="item">
-     <image  class="item-image" src="https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hpcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
+     <image  class="item-image" src="{{product.image}}"></image>
      <view class="item-content">
-       <text class="item-text">Shappo 123</text>
-       <text class="item-text item-text--small">subtitle</text>
-       <text class="item-text item-text--big">120.000 đ</text>
+       <text class="item-text">{{product.name}}</text>
+       <text class="item-text item-text--small">{{product.description}}</text>
+       <text class="item-text item-text--big">{{product.price.toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}} </text>
        <view class="item-box">
-          <text class="item-num">12</text>
+          <text class="item-num">{{product.quantity}}</text>
        </view>
      </view>
    </view>

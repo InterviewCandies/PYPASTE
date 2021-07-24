@@ -1,7 +1,7 @@
  <view class="invitation-card" onTap="onTap">
-    <image class="invitation-avatar" src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
+    <image class="invitation-avatar" src="{{invitation.user.avatar}}"></image>
     <view class="invitation-content">
-      <text class="invitation-text">Eureka mời bạn ghép đơn</text>
-      <text class="invatation-text invitation-text--small">Bạn có thể ghép đơn với tôi được không?</text>
+      <text class="invitation-text">{{invitation.user.name}} mời bạn ghép giỏ hàng</text>
+      <text class="invatation-text invitation-text--small">{{invitation.user.message}}</text>
     </view>
   </view>

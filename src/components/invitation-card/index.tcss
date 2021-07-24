@@ -7,6 +7,7 @@
   grid-template-columns: 50px 1fr;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   gap: 10px;
+  margin: 0.75rem 0;
 }
 
 .invitation-avatar {
@@ -27,5 +28,5 @@
 
 .invitation-text--small {
   font-size: 0.75rem;
-  color: #cecece;
+  color: #9B9B9B;
 }

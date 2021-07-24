@@ -11,7 +11,7 @@
 
 .details-text--mute {
   font-size: 0.75rem;
-  color: #cecece;
+  color: #9B9B9B;
 }
 
 .details-list {

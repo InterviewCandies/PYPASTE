@@ -8,7 +8,7 @@
   border-radius: 16px;
   position: relative;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  
+  margin: 1rem 0;
 }
 
 .item-image {
@@ -29,7 +29,7 @@
 
 .item-text--small {
   font-size: 0.5rem;
-  color: #cecece
+  color: #9B9B9B
 }
 
 .item-text--big {
@@ -44,7 +44,7 @@
   width: 20px;
   height: 20px;
   right: 0.5rem;
-  top: 0.5rem;
+  bottom: 0.5rem;
   border-radius: 50%;
   background: #202020;
   padding: 0.25rem;

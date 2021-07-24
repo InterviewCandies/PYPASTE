@@ -1,7 +1,7 @@
    <view class="noti">
-     <image  src="../../images/rejected.png" class="noti-image" ></image>
+     <image  src="{{icon}}" class="noti-image" ></image>
      <view class="noti-content">
-       <text class="noti-text noti-text--bold">HNhi đã chấp nhận lời mời của bạn</text>
-       <text class="noti-text">20/03/2021</text>
+       <text class="noti-text noti-text--bold">{{notification.content}}</text>
+       <text class="noti-text noti-text--mute">{{notification.date}}</text>
      </view>
    </view>
